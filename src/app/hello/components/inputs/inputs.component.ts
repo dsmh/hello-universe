@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputsComponent implements OnInit {
 
-  constructor() { }
+  public nombre: String;
+  public apellido: String;
+  
+  constructor() { 
+    this.apellido = "";
+    this.nombre = "";
+  }
 
   ngOnInit(): void {
   }
